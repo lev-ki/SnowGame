@@ -10,7 +10,7 @@
       "hash": "afba2388773b7eeb9fec8ae9841c6db34969a54b"
     },
     "com.nerdingroom.core": {
-      "version": "file:../../../../NerdingRoomCore",
+      "version": "file:../../NerdingRoomCore",
       "depth": 0,
       "source": "local",
       "dependencies": {

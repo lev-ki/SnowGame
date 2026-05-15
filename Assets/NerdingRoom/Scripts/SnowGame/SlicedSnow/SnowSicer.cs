@@ -18,6 +18,8 @@ namespace NerdingRoom.Scripts.SnowGame.SlicedSnow
 
         public List<GameObject> GeneratedLevels;
         public List<MaterialPropertyBlock> MaterialPropertyBlocks;
+        
+        public CustomRenderTexture TargetRenderTexture;
 
         private void Awake()
         {
@@ -27,6 +29,12 @@ namespace NerdingRoom.Scripts.SnowGame.SlicedSnow
         [ButtonMethod]
         private void Slice()
         {
+            if (!TargetRenderTexture)
+            {
+                return;
+            }
+            TargetRenderTexture.Initialize();
+            
             if (Root == null || BaseLevel == null)
             {
                 return;

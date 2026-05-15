@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SlicedPlane_0
-  m_Shader: {fileID: -6465566751694194690, guid: 75b558bc5cd03b04caa06b956ff1eff1, type: 3}
+  m_Name: BorderPlaneZ+
+  m_Shader: {fileID: -6465566751694194690, guid: a6d885e9c0ee919408ed3054818bb12d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2999
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -47,9 +47,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Height: 0
+    - _Positive: 1
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -1
     - _Tolerance: 0.033
+    - _XAxis: 0
     m_Colors:
     - _ShadowColor: {r: 0.8632076, g: 0.9696104, b: 1, a: 1}
   m_BuildTextureStacks: []
