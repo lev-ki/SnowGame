@@ -1,0 +1,28 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Counter_Template" src="project://database/Assets/UI%20Toolkit/Counter_Template.uxml?fileID=9197481963319205126&amp;guid=98d1d3257e8747d488af9f4f6615d4ea&amp;type=3#Counter_Template"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Style.uss?fileID=7433441132597879392&amp;guid=18446f48c702da846906b23340d0966d&amp;type=3#Style"/>
+    <ui:VisualElement name="Root" data-source-type="NerdingRoom.Scripts.SnowGame.UIDataLayer, SnowGame" style="width: 100%; height: 100%;">
+        <ui:GroupBox name="Counters" style="align-items: center; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+            <ui:Instance template="Counter_Template"/>
+            <ui:Instance template="Counter_Template"/>
+        </ui:GroupBox>
+        <ui:VisualElement name="UpgradeMenu" enabled="false" data-source-type="NerdingRoom.Scripts.SnowGame.UIDataLayer, SnowGame" class="overlay" style="flex-direction: row; opacity: 0.44;">
+            <ui:VisualElement style="flex-grow: 1;"/>
+            <ui:GroupBox name="">
+                <ui:VisualElement style="flex-grow: 1;"/>
+                <ui:GroupBox name="UnlockableButtons">
+                    <ui:Button text="Unlock Shovel" class="unlockable-button"/>
+                    <ui:Button text="Buy 1 AutoGrabber" name="AutoGrabberButton" class="locked-button"/>
+                    <ui:Label text="The buttons above will &#10;be cleared on &lt;i&gt;Start()&lt;/i&gt;" enable-rich-text="true"/>
+                </ui:GroupBox>
+                <ui:VisualElement style="flex-grow: 1;"/>
+                <ui:Button text="Next Day" name="NextDayButton" class="nexy-day-button"/>
+            </ui:GroupBox>
+            <ui:VisualElement style="flex-grow: 1;"/>
+            <Bindings>
+                <ui:DataBinding property="enabledSelf" data-source-path="UpgradeMenuEnabled" binding-mode="ToTarget"/>
+                <ui:DataBinding property="style.opacity" data-source-path="UpgradeMenuVisibility" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

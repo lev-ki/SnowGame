@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Counter_Snow" data-source-type="NerdingRoom.Scripts.SnowGame.ResourceDataSource, SnowGame" class="counter" style="flex-direction: row;">
+        <ui:Image name="Image" source="project://database/Resources/unity_builtin_extra?fileID=10912&amp;guid=0000000000000000f000000000000000&amp;type=0#Knob" enabled="true" class="counter-image" style="display: flex; width: 48px; height: 48px;"/>
+        <ui:Label name="ResourceNum" text="10" class="counter-label">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="resourceCount" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="ResourceLabel" class="counter-label" style="margin-left: 8px; -unity-font-style: normal;"/>
+        <Bindings>
+            <ui:DataBinding property="enabledSelf" data-source-path="snowCounterDisplay" binding-mode="ToTarget"/>
+        </Bindings>
+    </ui:VisualElement>
+</ui:UXML>

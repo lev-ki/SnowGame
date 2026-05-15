@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2eee5444af8465a8e1cc5e4ee421284, type: 3}
+  m_Name: Shovel
+  m_EditorClassIdentifier: Assembly-CSharp::NerdingRoom.Scripts.Progression.NRProgressionUnlockableConfig
+  Name:
+    m_TableReference:
+      m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+    m_TableEntryReference:
+      m_KeyId: 2058714835050496
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  ResourceHandle:
+    handleSO: {fileID: 11400000, guid: 934108bceb65eef428d688686965a0a7, type: 2}
+    customHandle:
+      Name: 
+  ResourceCost: 200
+  StatModifiers:
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: e9755bd6510d6994daf55b4d9cb18162, type: 2}
+      customHandle:
+        Name: 
+    EntityId: 0
+    Modifiers:
+    - Name: Mod.Tool
+      Type: 1
+      Value: 2
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: d39b128d0bdfa9c44aa9177131bb5a34, type: 2}
+      customHandle:
+        Name: 
+    EntityId: 0
+    Modifiers:
+    - Name: Mod.Tool
+      Type: 1
+      Value: 2
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: c0204a437a7c440499a2571613f111ba, type: 2}
+      customHandle:
+        Name: 
+    EntityId: 0
+    Modifiers:
+    - Name: Mod.Tool
+      Type: 1
+      Value: 2
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: 34313f5e619b78046a352d994d3421ad, type: 2}
+      customHandle:
+        Name: 
+    EntityId: 0
+    Modifiers:
+    - Name: Mod.Tool
+      Type: 0
+      Value: 0.25
+  references:
+    version: 2
+    RefIds: []

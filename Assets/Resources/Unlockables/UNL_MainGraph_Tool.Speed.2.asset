@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2eee5444af8465a8e1cc5e4ee421284, type: 3}
+  m_Name: UNL_MainGraph_Tool.Speed.2
+  m_EditorClassIdentifier: NRCore::NerdingRoom.Scripts.Core.NRUnlockables.NRUnlockableDefinition
+  DefinitionHandle:
+    handleSO: {fileID: 11400000, guid: 7d35ce8fa8cb1cb4898da0aadf0f41eb, type: 2}
+    customHandle:
+      Name: 
+  Name:
+    m_TableReference:
+      m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+    m_TableEntryReference:
+      m_KeyId: 7532521158860800
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: count-0
+      variable:
+        rid: 1997744644401922057
+  ResourceCosts:
+  - Handle:
+      handleSO: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+      customHandle:
+        Name: 
+    Cost: 200
+  StatModifiers:
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: 6a5436ff7c670cc42bdc7f449e507cae, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 0.5
+  ContentHash: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 1997744644401922057
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 200

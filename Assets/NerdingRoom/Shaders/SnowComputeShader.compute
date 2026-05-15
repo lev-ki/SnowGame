@@ -1,0 +1,174 @@
+#pragma kernel InitSnow
+#pragma kernel ApplyInputs
+#pragma kernel SmoothSnow
+#pragma kernel AgeSnow
+#pragma kernel DownsampleSnow
+
+// ==============================
+// Resources
+// ==============================
+
+// Main snow height (authoritative)
+// R = height
+// G = unused
+// B = unused 
+// A = unused
+RWTexture2D<float4> _MainSnow;
+
+// Supplementary data
+// R = age
+// G = unused
+// B = unused 
+// A = unused
+RWTexture2D<float4> _SecondarySnow;
+
+// Optional input mask (clicks / particles)
+// R > 0 => apply change
+Texture2D<float> _InputMask;
+
+// Downsample output for CPU collision
+RWStructuredBuffer<float> _CoarseSnow;
+
+// ==============================
+// Constants
+// ==============================
+
+uint _Width;
+float _DeltaTime;
+float _AgeSpeed;
+float _SmoothingThreshold;
+float _SmoothingStep;
+
+// ==============================
+// Helpers
+// ==============================
+
+float4 ReadSnow(int x)
+{
+    return _MainSnow[int2(x, 0)];
+}
+
+void WriteSnow(int x, float4 v)
+{
+    _MainSnow[int2(x, 0)] = max(v, 0.0);
+}
+
+float4 ReadMeta(int x)
+{
+    return _SecondarySnow[int2(x, 0)];
+}
+
+void WriteMeta(int x, float4 v)
+{
+    _SecondarySnow[int2(x, 0)] = v;
+}
+
+// ==============================
+// Init Snow
+// ==============================
+
+[numthreads(64,1,1)]
+void InitSnow(uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x;
+    if (x >= _Width) return;
+
+    float4 height = float4(0.4, 0, 0, 0); // TEMP default, replace later
+    WriteSnow(x, height);
+
+    // age = 1 (old), velocity = 0
+    WriteMeta(x, float4(1, 0, 0, 0));
+}
+
+// ==============================
+// Apply Inputs
+// ==============================
+
+[numthreads(64,1,1)]
+void ApplyInputs(uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x;
+    if (x >= _Width) return;
+
+    float mask = _InputMask[int2(x, 0)];
+    if (mask <= 0.0) return;
+
+    float4 height = ReadSnow(x);
+    height += mask;              // mask contains signed delta
+    WriteSnow(x, height);
+
+    // Reset age when modified
+    float4 meta = ReadMeta(x);
+    meta.r = 0.0;
+    WriteMeta(x, meta);
+}
+
+// ==============================
+// Smooth Snow
+// ==============================
+
+[numthreads(64,1,1)]
+void SmoothSnow(uint3 id : SV_DispatchThreadID)
+{
+    int x = id.x;
+    if (x <= 0 || x >= _Width - 1) return;
+
+    float4 h  = ReadSnow(x);
+    float4 hl = ReadSnow(x - 1);
+    float4 hr = ReadSnow(x + 1);
+
+    float4 dl = hl - h;
+    float4 dr = hr - h;
+
+    // Move snow toward lower neighbor
+    if (abs(dl.r) > _SmoothingThreshold)
+    {
+        float4 move = sign(dl) * _SmoothingStep;
+        WriteSnow(x, h  + move);
+        h.r += move;
+    }
+    if (abs(dr.r) > _SmoothingThreshold)
+    {
+        float4 move = sign(dr) * _SmoothingStep;
+        WriteSnow(x, h  + move);
+    }
+
+    // Mark as fresh
+    float4 meta = ReadMeta(x);
+    meta.r = 0.0;
+    WriteMeta(x, meta);
+}
+
+// ==============================
+// Age Snow
+// ==============================
+
+[numthreads(64,1,1)]
+void AgeSnow(uint3 id : SV_DispatchThreadID)
+{
+    uint x = id.x;
+    if (x >= _Width) return;
+
+    float4 meta = ReadMeta(x);
+    meta.r = min(meta.r + _DeltaTime * _AgeSpeed, 1.0);
+    WriteMeta(x, meta);
+}
+
+// ==============================
+// Downsample Snow
+// ==============================
+
+[numthreads(128,1,1)]
+void DownsampleSnow(uint3 id : SV_DispatchThreadID)
+{
+    uint i = id.x;
+    if (i >= 128) return;
+
+    uint src = i * 4;
+
+    float4 sum = 0;
+    for (uint j = 0; j < 4; j++)
+        sum += ReadSnow(src + j);
+
+    _CoarseSnow[i] = sum.r * 0.25;
+}

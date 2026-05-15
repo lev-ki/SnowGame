@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2eee5444af8465a8e1cc5e4ee421284, type: 3}
+  m_Name: UNL_MainGraph_Snowfall.Rate
+  m_EditorClassIdentifier: NRCore::NerdingRoom.Scripts.Core.NRUnlockables.NRUnlockableDefinition
+  DefinitionHandle:
+    handleSO: {fileID: 11400000, guid: acf334ac7ba83be4db2f7efebfaace6e, type: 2}
+    customHandle:
+      Name: 
+  Name:
+    m_TableReference:
+      m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+    m_TableEntryReference:
+      m_KeyId: 7523646695268352
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: count-0
+      variable:
+        rid: 1997744644401922055
+  ResourceCosts:
+  - Handle:
+      handleSO: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+      customHandle:
+        Name: 
+    Cost: 800
+  StatModifiers:
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: e2da177682095b44f881c36ce9e29d1c, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 4
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: 8a5d3d7faeabc9a4d8674e6ca1d98916, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 2
+  ContentHash: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 1997744644401922055
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 800

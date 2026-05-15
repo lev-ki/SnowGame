@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2eee5444af8465a8e1cc5e4ee421284, type: 3}
+  m_Name: UNL_MainGraph_Tool.Shovel.2
+  m_EditorClassIdentifier: NRCore::NerdingRoom.Scripts.Core.NRUnlockables.NRUnlockableDefinition
+  DefinitionHandle:
+    handleSO: {fileID: 11400000, guid: 40fd0d2195e1aa049a5616b40493caf9, type: 2}
+    customHandle:
+      Name: 
+  Name:
+    m_TableReference:
+      m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+    m_TableEntryReference:
+      m_KeyId: 2058714835050496
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: count-0
+      variable:
+        rid: 1997744644401922054
+  ResourceCosts:
+  - Handle:
+      handleSO: {fileID: 11400000, guid: 4c198597e1a7ccc49a599c62e112ac73, type: 2}
+      customHandle:
+        Name: 
+    Cost: 40
+  StatModifiers:
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: bd2c018f1ebce734ab44294d3297d587, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 4
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: 48dac13eb5bf2f740961b12b9d4bcf7f, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 4
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: a2c4370aed094bf4bb7e541da3f05b99, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 1
+      Value: 4
+  - TargetStat:
+      handleSO: {fileID: 11400000, guid: 708e59a62ea3bda40a35cee413bae70e, type: 2}
+      customHandle:
+        Name: 
+    EntityHandle:
+      handleSO: {fileID: 0}
+      customHandle:
+        Name: 
+    Modifier:
+      Name: Mod.Tool
+      Type: 0
+      Value: 0.35
+  ContentHash: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 1997744644401922054
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 40

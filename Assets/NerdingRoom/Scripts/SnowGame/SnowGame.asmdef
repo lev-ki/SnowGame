@@ -1,0 +1,19 @@
+{
+    "name": "SnowGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:48c9f6afdac61634db0e0f241c7d4d51",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:d54e51914067cfd4c9496af80992d95d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

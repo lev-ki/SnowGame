@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: IdleSnow_Main_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5e11c8924859b9445970f3b3d5c2fa21, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7775862166198157467
+  m_TableData:
+  - m_Id: 802142806016
+    m_Localized: Snow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2058714835050496
+    m_Localized: Shovel - {count-0} Coins
+    m_Metadata:
+      m_Items:
+      - rid: 7775862166198157467
+  - m_Id: 2774671954010112
+    m_Localized: Wait, is this the right kind of shovel?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2775314227781632
+    m_Localized: Well, that's better!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2775569677672448
+    m_Localized: Everyone starts somewhere...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2775714104336384
+    m_Localized: click click click click click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5154991445630976
+    m_Localized: Hold - {count-0} Snow
+    m_Metadata:
+      m_Items:
+      - rid: 7775862166198157467
+  - m_Id: 7212603267866624
+    m_Localized: Hover - {count-0} Snow
+    m_Metadata:
+      m_Items:
+      - rid: 7775862166198157467
+  - m_Id: 7523646695268352
+    m_Localized: Snow Storm 1 - {count-0} Snow
+    m_Metadata:
+      m_Items:
+      - rid: 7775862166198157467
+  - m_Id: 7532521158860800
+    m_Localized: Shovel Faster - {count-0} Snow
+    m_Metadata:
+      m_Items:
+      - rid: 7775862166198157467
+  - m_Id: 8229049284419584
+    m_Localized: Coins
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7775862166198157467
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 7212603267866624
+        - id: 5154991445630976
+        - id: 2058714835050496
+        - id: 7523646695268352
+        - id: 7532521158860800

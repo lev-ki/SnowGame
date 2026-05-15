@@ -1,0 +1,1671 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790b4d75d92f4b0984310a268dbd952f, type: 3}
+  m_Name: MainGraph
+  m_EditorClassIdentifier: Unity.GraphToolkit.Editor::Unity.GraphToolkit.Editor.Implementation.GraphObjectImp
+  m_GraphModel:
+    rid: 7775862048188792920
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1997744530194956716
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956717
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956718
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 4c198597e1a7ccc49a599c62e112ac73, type: 2}
+    - rid: 1997744530194956723
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956724
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956725
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+    - rid: 1997744530194956728
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956729
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956730
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+    - rid: 1997744530194956732
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956733
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956734
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+    - rid: 1997744530194956736
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956737
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956738
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 85cd814fd1dbbbc42b0eb979b882a667, type: 2}
+    - rid: 1997744530194956740
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 3489010123163060774
+          m_Value1: 6814043508299052260
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 264ae0b038746b30e4b438ec7758905e
+        m_Version: 2
+        m_Position: {x: -334.3545, y: 188.45615}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          m_ValueList:
+          - rid: 1997744530194956741
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 1997744530194956742
+    - rid: 1997744530194956741
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Root
+    - rid: 1997744530194956742
+      type: {class: NRUnlockableRootNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        cachedHandleName: Root
+    - rid: 1997744530194956744
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 8794363426073388953
+          m_Value1: 11661247260140748336
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 99a7ca04f1da0b7a30beaf629912d5a1
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 3489010123163060774
+            m_Value1: 6814043508299052260
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 264ae0b038746b30e4b438ec7758905e
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 4304432286910454885
+            m_Value1: 2272322515287326003
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 651c05ed5b6abc3b33bdd2d249e9881f
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
+    - rid: 1997744530194956760
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 2675807211743565348
+          m_Value1: 12959955100732916481
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 245667677b602225018332d47f02dbb3
+        m_Version: 2
+        m_Position: {x: 521.574, y: -524.3168}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 handle
+          - Resource 0 cost
+          - Stat 0 - handle
+          - Stat 0 - Modifier Name
+          - Stat 0 - Modifier Type
+          - Stat 0 - Modifier Value
+          - Stat 1 - handle
+          - Stat 1 - Modifier Name
+          - Stat 1 - Modifier Type
+          - Stat 1 - Modifier Value
+          - Stat 2 - handle
+          - Stat 2 - Modifier Name
+          - Stat 2 - Modifier Type
+          - Stat 2 - Modifier Value
+          - Stat 3 - handle
+          - Stat 3 - Modifier Name
+          - Stat 3 - Modifier Type
+          - Stat 3 - Modifier Value
+          m_ValueList:
+          - rid: 1997744530194956761
+          - rid: 1997744530194956762
+          - rid: 1997744530194956763
+          - rid: 1997744530194956764
+          - rid: 1997744530194956765
+          - rid: 1997744530194956766
+          - rid: 1997744530194956767
+          - rid: 1997744530194956768
+          - rid: 1997744530194956769
+          - rid: 1997744530194956770
+          - rid: 1997744530194956771
+          - rid: 1997744530194956772
+          - rid: 1997744530194956773
+          - rid: 1997744530194956774
+          - rid: 1997744530194956775
+          - rid: 1997744530194956777
+          - rid: 1997744530194956778
+          - rid: 1997744530194956779
+          - rid: 1997744530194956780
+          - rid: 1997744530194956781
+          - rid: 1997744530194956782
+          - rid: 1997744530194956783
+          - rid: 1997744530194956784
+          - rid: 1997744530194956785
+          - rid: 1997744530194956786
+          - rid: 1997744530194956787
+          - rid: 1997744530194956788
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 1997744530194956776
+    - rid: 1997744530194956761
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Tool.Shovel.1
+    - rid: 1997744530194956762
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 1997744530194956763
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 1997744530194956764
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 1997744530194956765
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956766
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRHandles.NRHandleSO, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 1997744530194956767
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 2058714835050496
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 1997744530194957032
+    - rid: 1997744530194956768
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 1997744530194956769
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 1997744530194956770
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRGameResources.Editor.NRResourceHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 4c198597e1a7ccc49a599c62e112ac73, type: 2}
+    - rid: 1997744530194956771
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 10
+    - rid: 1997744530194956772
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: bd2c018f1ebce734ab44294d3297d587, type: 2}
+    - rid: 1997744530194956773
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956774
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956775
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 2
+    - rid: 1997744530194956776
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Tool.Shovel.1
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 1997744530194956777
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 48dac13eb5bf2f740961b12b9d4bcf7f, type: 2}
+    - rid: 1997744530194956778
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956779
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956780
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 2
+    - rid: 1997744530194956781
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: a2c4370aed094bf4bb7e541da3f05b99, type: 2}
+    - rid: 1997744530194956782
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956783
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956784
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 2
+    - rid: 1997744530194956785
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 708e59a62ea3bda40a35cee413bae70e, type: 2}
+    - rid: 1997744530194956786
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956787
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956788
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0.25
+    - rid: 1997744530194956790
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 13745965284693640961
+          m_Value1: 17519462436497469794
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 010704e1987ac3be62313b8f43a221f3
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 3489010123163060774
+            m_Value1: 6814043508299052260
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 264ae0b038746b30e4b438ec7758905e
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 2675807211743565348
+            m_Value1: 12959955100732916481
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 245667677b602225018332d47f02dbb3
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
+    - rid: 1997744530194956792
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0.35
+    - rid: 1997744530194956793
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956794
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956795
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 708e59a62ea3bda40a35cee413bae70e, type: 2}
+    - rid: 1997744530194956796
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 1997744530194956797
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956798
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956799
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: a2c4370aed094bf4bb7e541da3f05b99, type: 2}
+    - rid: 1997744530194956800
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 1997744530194956801
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956802
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956803
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 48dac13eb5bf2f740961b12b9d4bcf7f, type: 2}
+    - rid: 1997744530194956804
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 1997744530194956805
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956806
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956807
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: bd2c018f1ebce734ab44294d3297d587, type: 2}
+    - rid: 1997744530194956809
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 2399966947848452447
+          m_Value1: 17815491949258971399
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 5f792f3739654e210799698e89573df7
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 2675807211743565348
+            m_Value1: 12959955100732916481
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 245667677b602225018332d47f02dbb3
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 16916994238244400017
+            m_Value1: 5091304004415545427
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 912be32da13cc5ea5360b66204f2a746
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
+    - rid: 1997744530194956812
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 2
+    - rid: 1997744530194956813
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956814
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956815
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 8a5d3d7faeabc9a4d8674e6ca1d98916, type: 2}
+    - rid: 1997744530194956816
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 1997744530194956817
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956818
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956819
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: e2da177682095b44f881c36ce9e29d1c, type: 2}
+    - rid: 1997744530194956822
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0.75
+    - rid: 1997744530194956823
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956824
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956825
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 6a5436ff7c670cc42bdc7f449e507cae, type: 2}
+    - rid: 1997744530194956827
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0.5
+    - rid: 1997744530194956828
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956829
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956830
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 6a5436ff7c670cc42bdc7f449e507cae, type: 2}
+    - rid: 1997744530194956834
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0.25
+    - rid: 1997744530194956835
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+              NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 1
+        m_EnumType:
+          m_Identification: NerdingRoom.Scripts.Core.NRStats.NRModifier+ModifierType,
+            NRCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1997744530194956836
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Mod.Tool
+    - rid: 1997744530194956837
+      type: {class: 'Constant`1[[NerdingRoom.Scripts.Core.NRStats.Editor.NRStatHandleWrapper, NRCore]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          Handle: {fileID: 11400000, guid: 6a5436ff7c670cc42bdc7f449e507cae, type: 2}
+    - rid: 1997744530194957032
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 10
+    - rid: 7775862048188792920
+      type: {class: GraphModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 16572175027310006418
+          m_Value1: 9278297678712837351
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 9290695a6231fce5e794028c9422c380
+        m_Name: 
+        m_GraphNodeModels:
+        - rid: 7775862168060166355
+        - rid: 7775862185183936692
+        - rid: 7775862185183937190
+        - rid: 7775862233989644440
+        - rid: 7775862233989644492
+        - rid: 1997744530194956740
+        - rid: 1997744530194956760
+        m_GraphWireModels:
+        - rid: 7775862262471852178
+        - rid: 7775862262471852179
+        - rid: 7775862262471852180
+        - rid: 1997744530194956744
+        - rid: 1997744530194956790
+        - rid: 1997744530194956809
+        m_GraphStickyNoteModels: []
+        m_GraphPlacematModels: []
+        m_GraphVariableModels: []
+        m_GraphPortalModels: []
+        m_SectionModels:
+        - rid: 7775862048188792921
+        m_LocalSubgraphs: []
+        m_LastKnownBounds:
+          serializedVersion: 2
+          x: -334
+          y: -524
+          width: 3930
+          height: 1576
+        m_GraphElementMetaData:
+        - m_Guid:
+            m_Value0: 10933227789062564746
+            m_Value1: 13654672434284178637
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 8aeb8057bfa0ba97cdacd3c13b247fbd
+          m_Category: 0
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 16916994238244400017
+            m_Value1: 5091304004415545427
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 912be32da13cc5ea5360b66204f2a746
+          m_Category: 0
+          m_Index: 1
+        - m_Guid:
+            m_Value0: 13329713455361911710
+            m_Value1: 10685890377582318851
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 9e6b9788c3a7fcb803158fa0aee84b94
+          m_Category: 0
+          m_Index: 2
+        - m_Guid:
+            m_Value0: 4304432286910454885
+            m_Value1: 2272322515287326003
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 651c05ed5b6abc3b33bdd2d249e9881f
+          m_Category: 0
+          m_Index: 3
+        - m_Guid:
+            m_Value0: 4049611235257333084
+            m_Value1: 9249027023105240715
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 5cb5f173f61b33388b2e2df612255b80
+          m_Category: 0
+          m_Index: 4
+        - m_Guid:
+            m_Value0: 1790122312373674180
+            m_Value1: 13253446589972924679
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: c4a08835c2cad71807c9f22c74b3edb7
+          m_Category: 0
+          m_Index: 5
+        - m_Guid:
+            m_Value0: 17368968862123065787
+            m_Value1: 3080850427115146420
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: bb81aac527f90af1b40c4ff22361c12a
+          m_Category: 2
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 17481164931283581306
+            m_Value1: 11401186260621242398
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 7a792cc5e29299f21eb0647a7f26399e
+          m_Category: 2
+          m_Index: 1
+        - m_Guid:
+            m_Value0: 2681310620770244603
+            m_Value1: 4940488673648679434
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: fb177eabcded35250a9aabd945249044
+          m_Category: 2
+          m_Index: 2
+        - m_Guid:
+            m_Value0: 3489010123163060774
+            m_Value1: 6814043508299052260
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 264ae0b038746b30e4b438ec7758905e
+          m_Category: 0
+          m_Index: 6
+        - m_Guid:
+            m_Value0: 8794363426073388953
+            m_Value1: 11661247260140748336
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 99a7ca04f1da0b7a30beaf629912d5a1
+          m_Category: 2
+          m_Index: 3
+        - m_Guid:
+            m_Value0: 2675807211743565348
+            m_Value1: 12959955100732916481
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 245667677b602225018332d47f02dbb3
+          m_Category: 0
+          m_Index: 6
+        - m_Guid:
+            m_Value0: 13745965284693640961
+            m_Value1: 17519462436497469794
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 010704e1987ac3be62313b8f43a221f3
+          m_Category: 2
+          m_Index: 4
+        - m_Guid:
+            m_Value0: 2399966947848452447
+            m_Value1: 17815491949258971399
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 5f792f3739654e210799698e89573df7
+          m_Category: 2
+          m_Index: 5
+        m_EntryPoint:
+          rid: 7775862168060166355
+        m_Graph:
+          rid: 7775862123755208704
+    - rid: 7775862048188792921
+      type: {class: SectionModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 10582074719129855992
+          m_Value1: 2018337229200059375
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: f867600ce414db92ef6b6a2f0493021c
+        m_Version: 2
+        m_Items: []
+        m_Title: 
+    - rid: 7775862123755208704
+      type: {class: NRUnlockablesGraph, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data: 
+    - rid: 7775862168060166355
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 16916994238244400017
+          m_Value1: 5091304004415545427
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 912be32da13cc5ea5360b66204f2a746
+        m_Version: 2
+        m_Position: {x: 1627.1382, y: -432.02332}
+        m_Title: NRUnlockableNode
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 cost
+          - Stat 3 - Modifier Value
+          - Stat 3 - Modifier Type
+          - Stat 3 - Modifier Name
+          - Stat 3 - handle
+          - Stat 2 - Modifier Value
+          - Stat 2 - Modifier Type
+          - Stat 2 - Modifier Name
+          - Stat 2 - handle
+          - Stat 1 - Modifier Value
+          - Stat 1 - Modifier Type
+          - Stat 1 - Modifier Name
+          - Stat 1 - handle
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Resource 0 handle
+          - Stat 0 - Modifier Value
+          - Stat 0 - Modifier Type
+          - Stat 0 - Modifier Name
+          - Stat 0 - handle
+          m_ValueList:
+          - rid: 7775862168060166356
+          - rid: 7775862168060166357
+          - rid: 7775862168060166358
+          - rid: 7775862168060166359
+          - rid: 7775862168060166361
+          - rid: 7775862168060166362
+          - rid: 7775862168060166363
+          - rid: 7775862168060166365
+          - rid: 1997744530194956792
+          - rid: 1997744530194956793
+          - rid: 1997744530194956794
+          - rid: 1997744530194956795
+          - rid: 1997744530194956796
+          - rid: 1997744530194956797
+          - rid: 1997744530194956798
+          - rid: 1997744530194956799
+          - rid: 1997744530194956800
+          - rid: 1997744530194956801
+          - rid: 1997744530194956802
+          - rid: 1997744530194956803
+          - rid: 1997744530194956716
+          - rid: 1997744530194956717
+          - rid: 1997744530194956718
+          - rid: 1997744530194956804
+          - rid: 1997744530194956805
+          - rid: 1997744530194956806
+          - rid: 1997744530194956807
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 7775862168060166382
+    - rid: 7775862168060166356
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Tool.Shovel.2
+    - rid: 7775862168060166357
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 7775862168060166358
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862168060166359
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 4
+    - rid: 7775862168060166361
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 2058714835050496
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 7775862262471852173
+    - rid: 7775862168060166362
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862168060166363
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862168060166365
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 40
+    - rid: 7775862168060166382
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Tool.Shovel.2
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 7775862185183936692
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 13329713455361911710
+          m_Value1: 10685890377582318851
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 9e6b9788c3a7fcb803158fa0aee84b94
+        m_Version: 2
+        m_Position: {x: 2756.0913, y: -448.20367}
+        m_Title: NRUnlockableNode
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 cost
+          - Stat 1 - Modifier Value
+          - Stat 1 - Modifier Type
+          - Stat 1 - Modifier Name
+          - Stat 1 - handle
+          - Stat 0 - Modifier Value
+          - Stat 0 - Modifier Type
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Resource 0 handle
+          - Stat 0 - Modifier Name
+          - Stat 0 - handle
+          m_ValueList:
+          - rid: 7775862185183936693
+          - rid: 7775862185183936694
+          - rid: 7775862185183936695
+          - rid: 7775862185183936696
+          - rid: 7775862185183936698
+          - rid: 7775862185183936699
+          - rid: 7775862185183936700
+          - rid: 7775862185183936702
+          - rid: 1997744530194956812
+          - rid: 1997744530194956813
+          - rid: 1997744530194956814
+          - rid: 1997744530194956815
+          - rid: 1997744530194956816
+          - rid: 1997744530194956817
+          - rid: 1997744530194956723
+          - rid: 1997744530194956724
+          - rid: 1997744530194956725
+          - rid: 1997744530194956818
+          - rid: 1997744530194956819
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 7775862185183936707
+    - rid: 7775862185183936693
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Snowfall.Rate
+    - rid: 7775862185183936694
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 7775862185183936695
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862185183936696
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 2
+    - rid: 7775862185183936698
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 7523646695268352
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 7775862262471852174
+    - rid: 7775862185183936699
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862185183936700
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862185183936702
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 800
+    - rid: 7775862185183936707
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Snowfall.Rate
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 7775862185183937190
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 4304432286910454885
+          m_Value1: 2272322515287326003
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 651c05ed5b6abc3b33bdd2d249e9881f
+        m_Version: 2
+        m_Position: {x: 455.06305, y: 627.5075}
+        m_Title: NRUnlockableNode
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 cost
+          - Stat 0 - Modifier Value
+          - Stat 0 - Modifier Type
+          - Stat 0 - Modifier Name
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Resource 0 handle
+          - Stat 0 - handle
+          m_ValueList:
+          - rid: 7775862185183937191
+          - rid: 7775862185183937192
+          - rid: 7775862185183937193
+          - rid: 7775862185183937194
+          - rid: 7775862185183937196
+          - rid: 7775862185183937197
+          - rid: 7775862185183937198
+          - rid: 7775862185183937200
+          - rid: 1997744530194956822
+          - rid: 1997744530194956823
+          - rid: 1997744530194956824
+          - rid: 1997744530194956728
+          - rid: 1997744530194956729
+          - rid: 1997744530194956730
+          - rid: 1997744530194956825
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 7775862185183937210
+    - rid: 7775862185183937191
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Tool.Speed.1
+    - rid: 7775862185183937192
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 7775862185183937193
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862185183937194
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862185183937196
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 7532521158860800
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 7775862262471852175
+    - rid: 7775862185183937197
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862185183937198
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862185183937200
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 50
+    - rid: 7775862185183937210
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Tool.Speed.1
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 7775862233989644440
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 4049611235257333084
+          m_Value1: 9249027023105240715
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 5cb5f173f61b33388b2e2df612255b80
+        m_Version: 2
+        m_Position: {x: 1411.951, y: 616.4752}
+        m_Title: NRUnlockableNode
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 cost
+          - Stat 0 - Modifier Value
+          - Stat 0 - Modifier Type
+          - Stat 0 - Modifier Name
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Resource 0 handle
+          - Stat 0 - handle
+          m_ValueList:
+          - rid: 7775862233989644441
+          - rid: 7775862233989644442
+          - rid: 7775862233989644443
+          - rid: 7775862233989644444
+          - rid: 7775862233989644445
+          - rid: 7775862233989644446
+          - rid: 7775862233989644447
+          - rid: 7775862233989644448
+          - rid: 1997744530194956827
+          - rid: 1997744530194956828
+          - rid: 1997744530194956829
+          - rid: 1997744530194956732
+          - rid: 1997744530194956733
+          - rid: 1997744530194956734
+          - rid: 1997744530194956830
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 7775862233989644455
+    - rid: 7775862233989644441
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Tool.Speed.2
+    - rid: 7775862233989644442
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 7775862233989644443
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862233989644444
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862233989644445
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 7532521158860800
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 7775862262471852176
+    - rid: 7775862233989644446
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862233989644447
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862233989644448
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 200
+    - rid: 7775862233989644455
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Tool.Speed.2
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 7775862233989644492
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 1790122312373674180
+          m_Value1: 13253446589972924679
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: c4a08835c2cad71807c9f22c74b3edb7
+        m_Version: 2
+        m_Position: {x: 2357.8596, y: 603.7178}
+        m_Title: NRUnlockableNode
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_handleName
+          - __option_extraParents
+          - __option_resNum
+          - __option_statsNum
+          - Unlockable Name
+          - Unlockable Description
+          - Unlock Message
+          - Resource 0 cost
+          - Stat 0 - Modifier Value
+          - Stat 0 - Modifier Type
+          - Stat 0 - Modifier Name
+          - SpacerHandle
+          - Parent Unlockable Handle
+          - Resource 0 handle
+          - Stat 0 - handle
+          m_ValueList:
+          - rid: 7775862233989644493
+          - rid: 7775862233989644494
+          - rid: 7775862233989644495
+          - rid: 7775862233989644496
+          - rid: 7775862233989644497
+          - rid: 7775862233989644498
+          - rid: 7775862233989644499
+          - rid: 7775862233989644500
+          - rid: 1997744530194956834
+          - rid: 1997744530194956835
+          - rid: 1997744530194956836
+          - rid: 1997744530194956736
+          - rid: 1997744530194956737
+          - rid: 1997744530194956738
+          - rid: 1997744530194956837
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 7775862233989644507
+    - rid: 7775862233989644493
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: Tool.Speed.3
+    - rid: 7775862233989644494
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 0
+    - rid: 7775862233989644495
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862233989644496
+      type: {class: 'Constant`1[[System.Int32, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1
+    - rid: 7775862233989644497
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: GUID:5e11c8924859b9445970f3b3d5c2fa21
+          m_TableEntryReference:
+            m_KeyId: 7532521158860800
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables:
+          - name: count-0
+            variable:
+              rid: 7775862262471852177
+    - rid: 7775862233989644498
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862233989644499
+      type: {class: 'Constant`1[[UnityEngine.Localization.LocalizedString, Unity.Localization]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_TableReference:
+            m_TableCollectionName: 
+          m_TableEntryReference:
+            m_KeyId: 0
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+    - rid: 7775862233989644500
+      type: {class: 'Constant`1[[System.Double, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: 1000
+    - rid: 7775862233989644507
+      type: {class: NRUnlockableNode, ns: NerdingRoom.Scripts.Core.Unlockables.Editor, asm: NRCore}
+      data:
+        graphPrefix: MainGraph
+        cachedHandleName: Tool.Speed.3
+        SpacerHandle: {fileID: 11400000, guid: d6f1726b263f67243a970747dc5a91d0, type: 2}
+    - rid: 7775862262471852173
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 40
+    - rid: 7775862262471852174
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 800
+    - rid: 7775862262471852175
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 50
+    - rid: 7775862262471852176
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 200
+    - rid: 7775862262471852177
+      type: {class: DoubleVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 1000
+    - rid: 7775862262471852178
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 17368968862123065787
+          m_Value1: 3080850427115146420
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: bb81aac527f90af1b40c4ff22361c12a
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 4304432286910454885
+            m_Value1: 2272322515287326003
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 651c05ed5b6abc3b33bdd2d249e9881f
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 4049611235257333084
+            m_Value1: 9249027023105240715
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 5cb5f173f61b33388b2e2df612255b80
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
+    - rid: 7775862262471852179
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 17481164931283581306
+          m_Value1: 11401186260621242398
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 7a792cc5e29299f21eb0647a7f26399e
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 4049611235257333084
+            m_Value1: 9249027023105240715
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 5cb5f173f61b33388b2e2df612255b80
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 1790122312373674180
+            m_Value1: 13253446589972924679
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: c4a08835c2cad71807c9f22c74b3edb7
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
+    - rid: 7775862262471852180
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 2681310620770244603
+          m_Value1: 4940488673648679434
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: fb177eabcded35250a9aabd945249044
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 16916994238244400017
+            m_Value1: 5091304004415545427
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 912be32da13cc5ea5360b66204f2a746
+          m_UniqueId: Unlockable Handle
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Unlockable Handle
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 13329713455361911710
+            m_Value1: 10685890377582318851
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 9e6b9788c3a7fcb803158fa0aee84b94
+          m_UniqueId: Parent Unlockable Handle
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Parent Unlockable Handle
