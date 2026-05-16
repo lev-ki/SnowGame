@@ -12,6 +12,7 @@ namespace NerdingRoom.Scripts.SnowGame.SlicedSnow
         private static readonly int Height = Shader.PropertyToID("_Height");
         public GameObject Root;
         public GameObject BaseLevel;
+        public Transform SidesParent;
         
         public int GeneratedSlices = 15;
         public float WorldStep;
@@ -59,7 +60,7 @@ namespace NerdingRoom.Scripts.SnowGame.SlicedSnow
             for (int i = 0; i < GeneratedSlices; i++)
             {
                 GameObject Level = Instantiate(BaseLevel, Root.transform);
-                Level.transform.position = BaseLevel.transform.position + Vector3.up * WorldStep * (i + 1);
+                Level.transform.position = BaseLevel.transform.position + Vector3.up * WorldStep * (i);
                 MeshRenderer renderer = Level.GetComponent<MeshRenderer>();
                 MaterialPropertyBlock block = new MaterialPropertyBlock();
                 block.SetFloat(Height, 1.0f * i /  GeneratedSlices);
@@ -67,6 +68,8 @@ namespace NerdingRoom.Scripts.SnowGame.SlicedSnow
                 GeneratedLevels.Add(Level);
                 MaterialPropertyBlocks.Add(block);
             }
+
+            SidesParent.localScale = new Vector3(1.0f, (GeneratedSlices - 1) * WorldStep, 1.0f);
         }
     }
 }

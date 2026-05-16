@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BorderPlaneX-
-  m_Shader: {fileID: -6465566751694194690, guid: a6d885e9c0ee919408ed3054818bb12d, type: 3}
+  m_Name: SlicedPlanes
+  m_Shader: {fileID: -6465566751694194690, guid: df92a04a40ccde748a3188aceb7fed68, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2449
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -46,14 +46,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClipThreshold: 0.5
     - _Height: 0
-    - _Positive: 0
     - _QueueControl: 0
-    - _QueueOffset: -1
+    - _QueueOffset: 0
     - _Tolerance: 0.033
-    - _XAxis: 1
     m_Colors:
-    - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.8632076, g: 0.9696104, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1733971661807347754
